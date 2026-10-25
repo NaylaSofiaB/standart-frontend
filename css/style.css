@@ -16,7 +16,7 @@ body {
   font-family: var(--sans);
   font-size: 1.0625rem;
   line-height: 1.6;
-  color: var(--ink);
+  color: var(--slate);
   background: var(--paper);
 }
 
@@ -29,7 +29,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   outline-offset: 2px;
 }
 
-h1, h2, h3 { font-family: var(--serif); line-height: 1.15; margin: 0 0 .5em; color: var(--ink); }
+h1, h2, h3 { font-family: var(--serif); line-height: 1.15; margin: 0 0 .5em; color: var(--slate); }
 h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 700; }
 h2 { font-size: clamp(1.7rem, 3.5vw, 2.3rem); font-weight: 600; }
 h3 { font-size: 1.4rem; font-weight: 600; }
@@ -43,7 +43,7 @@ p { margin: 0 0 1em; max-width: 68ch; }
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem clamp(1rem, 5vw, 4rem);
-  background: var(--slate);
+  background: var(--blue-dark);
   color: var(--paper);
 }
 .brand {
@@ -136,7 +136,7 @@ main > section {
   padding: .65rem .75rem;
   border: 1px solid var(--slate);
   background: #fff;
-  color: var(--ink);
+  color: var(--blue-dark);
 }
 .form .btn { justify-self: start; }
 
