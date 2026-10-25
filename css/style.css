@@ -1,10 +1,10 @@
 :root {
-  --slate: #44444c;
-  --ink: #26262b;
-  --paper: #f4f5f6;
-  --mist: #dfe3e1;
-  --green: #1f5a4a;
-  --green-dark: #17463a;
+  --slate: #d5d5d8;
+  --ink: #42424a;
+  --paper: #e9e9ff;
+  --blue-light: #7a78ff;
+  --blue: #080084;
+  --blue-dark: #04004f;
   --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -22,10 +22,10 @@ body {
 
 img { max-width: 100%; height: auto; display: block; }
 
-a { color: var(--green); }
-a:hover { color: var(--green-dark); }
+a { color: var(--blue); }
+a:hover { color: var(--blue-dark); }
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
-  outline: 3px solid var(--green);
+  outline: 3px solid var(--blue);
   outline-offset: 2px;
 }
 
@@ -93,7 +93,7 @@ main > section {
 
 .band {
   max-width: none !important;
-  background: var(--mist);
+  background: var(--blue-light);
 }
 .band > * { max-width: 68ch; margin-left: auto; margin-right: auto; }
 .band h2 { max-width: 68ch; }
@@ -107,8 +107,8 @@ main > section {
 }
 .cards article {
   background: #fff;
-  border: 1px solid var(--mist);
-  border-top: 4px solid var(--green);
+  border: 1px solid var(--blue-light);
+  border-top: 4px solid var(--blue);
   padding: 1.25rem;
 }
 .cards article img { margin: -1.25rem -1.25rem 1rem; max-width: calc(100% + 2.5rem); width: calc(100% + 2.5rem); }
@@ -120,13 +120,13 @@ main > section {
   font: inherit;
   font-weight: 600;
   color: #fff;
-  background: var(--green);
+  background: var(--blue);
   border: 0;
   padding: .75rem 1.5rem;
   text-decoration: none;
   cursor: pointer;
 }
-.btn:hover { background: var(--green-dark); color: #fff; }
+.btn:hover { background: var(--blue-dark); color: #fff; }
 
 .form { display: grid; gap: 1.1rem; max-width: 520px; margin-bottom: 1.5rem; }
 .field { display: grid; gap: .35rem; }
