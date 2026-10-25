@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato | Standart Contabilidade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Source+Sans+3:wght@400;600&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="img/logostandart.jpeg" alt="Logotipo da Standart Contabilidade" width="44" height="44">
+      <span>Standart Contabilidade</span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="contato.html" aria-current="page">Contato</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="titulo-contato">
+      <h1 id="titulo-contato">Fale com a Standart</h1>
+      <p class="lead">Envie sua dúvida ou mensagem. Respondemos em horário comercial.</p>
+    </section>
+
+    <section aria-labelledby="titulo-form-contato">
+      <h2 id="titulo-form-contato">Enviar mensagem</h2>
+      <form class="form" action="#" method="post">
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar mensagem</button>
+      </form>
+    </section>
+
+    <section aria-labelledby="titulo-mensagens">
+      <h2 id="titulo-mensagens">Mensagens de clientes</h2>
+      <div class="cards">
+        <article>
+          <h3>Maria Souza</h3>
+          <p>Atendimento rápido e sempre atencioso.</p>
+        </article>
+        <article>
+          <h3>João Pereira</h3>
+          <p>Resolveram a regularização da minha empresa sem complicação.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <address>
+        <p>Localização: Rua Dr. João Porfírio, nº 61</p>
+        <p>CNPJ: 00.000.000/0001-00</p>
+        <p>CEP: 39560-000</p>
+        <p>contato@standart.com.br</p>
+        <p>Segunda a sexta, das 7h às 11h30 e das 13h às 17h30</p>
+      </address>
+      <div>
+        <p>Contato</p>
+        <p>(38) 98804-1316</p>
+        <p>(99) 6969-6969</p>
+        <p class="insta">@contabilidadestandart</p>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 Standart Contabilidade. Desenvolvido por Bernardo Cardoso Vieira, Cauã Almeida Loiola, Cíntia Trindade Coelho, Emanuelle Ferraz de Oliveira e Nayla Sofia Batista Silva.</p>
+  </footer>
+</body>
+</html>
